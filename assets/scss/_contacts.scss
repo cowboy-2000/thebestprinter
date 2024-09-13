@@ -1,0 +1,30 @@
+.wrapper {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $background-color1;
+}
+
+.popup {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    }
+
+.review {
+    &__time {
+        font-size: $fs3;
+    }
+}
+
+form input, form textarea {
+	max-width: 100%;
+}

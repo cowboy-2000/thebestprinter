@@ -1,0 +1,23 @@
+.catalog {
+    &__col {
+        &:last-child {
+            .product {
+                @include border-bottom;
+            }
+        }
+    }
+}
+
+.product {
+    @extend %card;
+
+    &__discount {
+        position: absolute;
+    }
+
+    &__price {
+        &--old_price {
+            text-decoration: line-through;
+        }
+    }
+}

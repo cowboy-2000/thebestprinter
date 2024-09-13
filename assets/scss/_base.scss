@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+	position: relative;
+	font-family: $font1;
+	color: $color1;
+}
+
+a {
+	color: $color2;
+	text-decoration: none;
+}
+
+header {
+	position: relative;
+}
+
+main {
+	background-color: $color3;
+}
+
+.container {
+	max-width: 100%;
+	padding: 0 20px;
+
+    @media (min-width: $screen-xl) {
+        max-width: 960px;
+		padding: 0;
+    }
+}
+
+.row {
+	margin: 0 -10px;
+}
+
+.row {
+	& > * {
+		padding: 0 10px;
+	}
+}
+
+h1 {
+	font-size: $fs1;
+}
+
+h2 {
+	font-size: $fs2;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+form input, form textarea {
+	max-width: 100%;
+}

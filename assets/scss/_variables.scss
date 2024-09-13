@@ -1,0 +1,22 @@
+$font1: 'Roboto', sans-serif;
+$color1: #30320d;
+$color2: #ff0000;
+$color3: #f0f0f0;
+$color4: #000000;
+$fs1: 60px;
+$fs2: 40px;
+$fs3: 25px;
+$background-color1: rgba(red($color1), green($color1), blue($color1), 0.8);
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1400px;
+%card {
+    border-bottom: 1px solid $color4;
+	margin-bottom: 20px;
+    position: relative;
+
+    @media (min-width: $screen-md) {
+        border-bottom: none;
+    }
+}
