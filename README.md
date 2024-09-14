@@ -32,4 +32,8 @@ git clone https://github.com/cowboy-2000/thebestprinter.git
 - **"Team"**: Introduces the key team members.
 - **"License"**: Indicates the MIT license and links to the license file.
 
+<<<<<<< HEAD
 This English version serves as a clear guide for English-speaking users and developers interested in contributing to or using the project.
+=======
+This English version serves as a clear guide for English-speaking users and developers interested in contributing to or using the project.
+>>>>>>> da2dfe10aa7272768330a48782d9e34385fda546
