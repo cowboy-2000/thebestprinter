@@ -1,0 +1,13 @@
+.about_us {
+    &__col {
+        &:last-child {
+            .participant {
+                @include border-bottom;
+            }
+        }
+    }
+}
+
+.participant {
+    @extend %card;
+}

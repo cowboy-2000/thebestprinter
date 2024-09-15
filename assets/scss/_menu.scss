@@ -1,0 +1,55 @@
+.site-header {
+    &__navbar {
+        padding: 0;
+        top: 60px;
+
+        @media (min-width: $screen-xl) {
+            top: 0;
+		    right: 0;
+        }
+    }
+
+    &__col {
+        &:last-child {
+            position: relative;
+        }
+    }
+}
+
+.navbar {
+    &__collapse {
+        position: absolute;
+        top: 82px;
+        right: 0;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+	    flex-direction: column;
+	    border: none;
+
+        &__icon-bar {
+            width: 22px;
+	        height: 4px;
+            background-color: $color4;
+	        margin-bottom: 5px;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .collapsed {
+        display: block;
+    }
+
+    &__list {
+        display: flex;
+		gap: 0 20px;
+    }
+
+    &__item {
+        list-style-type: none;
+    }
+}
